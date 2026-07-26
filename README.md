@@ -21,6 +21,8 @@ When edit mode is active (either from the INI on open, or toggled with
 Ctrl+E), three asterisks (`***`) appear at the front of the Lister window
 title as an indicator. If they're gone, the field is read-only.
 
+Number keys in QuickView (Ctrl+Q): TC uses number keys (e.g. 4) to cycle through multiple matching Lister plugins in the QuickView window. This only works in read-only mode for us - in edit mode the same keys are needed for normal typing. To cycle to the next plugin in QuickView, switch to read-only mode with Ctrl+E first.
+
 ## Timestamp
 
 On save, `" (HH:MM:SS | dd.MM.yyyy)"` (the save time, **not** the creation
