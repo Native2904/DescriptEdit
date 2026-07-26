@@ -1,0 +1,6 @@
+[plugininstall]
+description=Plugin to view and edit Total Commander file comments (descript.ion)
+type=wlx
+file=DescriptEdit.wlx64
+defaultdir=Plugins\wlx\DescriptEdit
+version=1.0.0
