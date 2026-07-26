@@ -22,6 +22,8 @@ Ist der Editiermodus aktiv (beim Öffnen laut INI oder per Strg+E
 umgeschaltet), erscheinen drei Sternchen (`***`) vorne im Lister-Fenstertitel
 als Kennzeichen. Verschwinden sie, ist das Feld schreibgeschützt.
 
+Zifferntasten im QuickView (Strg+Q): TC nutzt Zifferntasten (z. B. 4), um im QuickView-Fenster zwischen mehreren passenden Lister-Plugins durchzuschalten. Das funktioniert bei uns nur im Lesemodus – im Editiermodus werden dieselben Tasten zum normalen Tippen gebraucht. Willst du im QuickView zum nächsten Plugin wechseln, zuerst mit Strg+E in den Lesemodus schalten.
+
 ## Zeitstempel
 
 Beim Speichern wird optional `" (HH:MM:SS | dd.MM.yyyy)"` (Speicherzeitpunkt,
