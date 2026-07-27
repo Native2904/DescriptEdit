@@ -3,7 +3,6 @@
 Total Commander Lister plugin (WLX). Instead of a file preview, it shows
 TC's own comment from `descript.ion` (in the same folder as the file/folder).
 
-*Deutsche Version: siehe [LIESMICH.md](LIESMICH.md)*
 
 ## Usage
 
