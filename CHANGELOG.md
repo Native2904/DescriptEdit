@@ -20,9 +20,7 @@ Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.0.0/).
 - Editiermodus-Anzeige: Hintergrundfarbe des Kommentarfelds statt
   Sternchen im Fenstertitel
 - Strg+S speichert jetzt ausschließlich, ohne irgendetwas zu schließen
-- ESC schließt weiterhin das Lister-Fenster ohne zu speichern, jetzt aber
-  mit Sicherheitsprüfung (Fenstertitel muss mit `Lister (` beginnen) -
-  schlägt die Prüfung fehl (z. B. im QuickView), passiert nichts
+- ESC schließt weiterhin das Lister-Fenster ohne zu speichern.
 - Fehlercode-Behandlung beim Schreiben in `descript.ion` robuster
   (Schreibgeschützt-/Versteckt-/System-Attribute werden korrekt behandelt)
 
