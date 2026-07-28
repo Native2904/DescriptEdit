@@ -82,6 +82,10 @@ is opened - no need to restart TC.
 - **EditableBackgroundColor** (default `236,236,236`): background color of the comment field in edit mode
 - **ReadonlyBackgroundColor** (default `255,255,255`): background color of the comment field in read-only mode
 
+
+https://github.com/Native2904/DescriptEdit/blob/main/QuickView.png  https://github.com/Native2904/DescriptEdit/blob/main/Lister.png
+
+
 ## Setting up in Total Commander
 
 Add it manually under *Configuration → Options → Lister (F3)... → Plugins*
