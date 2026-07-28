@@ -5,8 +5,8 @@ TC's own comment from `descript.ion` (in the same folder as the file/folder).
 
 ## Screenshots
 
-![DescriptEdit fullscreen] https://github.com/Native2904/DescriptEdit/blob/main/STrg%2BQ.png
-![DescriptEdit in the Lister window] https://github.com/Native2904/DescriptEdit/blob/main/F3.png
+![DescriptEdit fullscreen](https://github.com/Native2904/DescriptEdit/blob/main/F3.png)
+![DescriptEdit in the Lister window](https://github.com/Native2904/DescriptEdit/blob/main/STrg%2BQ.png)
 
 ## Usage
 
@@ -29,7 +29,6 @@ colors are configurable via the INI (see below).
 
 A status line at the bottom shows how many objects in the current folder
 have a comment, how many don't, and the file size of `descript.ion` itself.
-
 
 # Timestamp
 
