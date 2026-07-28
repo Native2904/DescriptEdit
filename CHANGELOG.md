@@ -9,28 +9,34 @@ Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.0.0/).
 - Ordner-Statistik-Zeile: Anzahl Objekte mit Kommentar, Anzahl ohne
   Kommentar, Größe der `descript.ion`
 - Leicht abgerundete Ecken am Kommentarfeld
-- INI-Schalter `CloseOnSaveInF3`: schließt nach Strg+S optional das
-  Lister-Fenster, ausschließlich im eigenständigen F3-Lister
 - INI-Schlüssel `FontFace`, `FontSize`, `TitleFontSize` für Schrift
 - INI-Schlüssel `EditableBackgroundColor`, `ReadonlyBackgroundColor` für
   den Editiermodus-Hintergrund
+- INI-Schlüssel `Language` (`auto`/`de`/`en`): Statistik-Zeile passt sich
+  automatisch der Windows-Anzeigesprache an, statt fest auf Deutsch zu
+  stehen (Rückmeldung eines englischsprachigen Nutzers)
 
 ### Geändert
 - Editiermodus-Anzeige: Hintergrundfarbe des Kommentarfelds statt
   Sternchen im Fenstertitel
+- Strg+S speichert jetzt ausschließlich, ohne irgendetwas zu schließen
+- ESC schließt weiterhin das Lister-Fenster ohne zu speichern, jetzt aber
+  mit Sicherheitsprüfung (Fenstertitel muss mit `Lister (` beginnen) -
+  schlägt die Prüfung fehl (z. B. im QuickView), passiert nichts
 - Fehlercode-Behandlung beim Schreiben in `descript.ion` robuster
   (Schreibgeschützt-/Versteckt-/System-Attribute werden korrekt behandelt)
 
 ### Entfernt
-- Automatisches Schließen des Lister-Fensters nach Strg+S/ESC als
-  Standardverhalten (Sicherheitsproblem im QuickView, siehe unten)
+- Automatisches Schließen des Lister-Fensters nach Strg+S (Sicherheitsproblem
+  im QuickView, siehe unten)
 
 ### Behoben
 - **Kritisch:** Strg+S konnte im QuickView (Strg+Q) Total Commander
   komplett schließen oder zum Absturz bringen. Ursache: das Lister-Fenster
   wurde per `GetAncestor(..., GA_ROOT) + WM_CLOSE` automatisch geschlossen;
-  im QuickView ist das aber TCs Hauptfenster selbst. Ersetzt durch ein
-  optionales, sicherheitsgeprüftes Verhalten (siehe `CloseOnSaveInF3`)
+  im QuickView ist das aber TCs Hauptfenster selbst. Strg+S speichert jetzt
+  nur noch; ESC (Schließen ohne Speichern) bleibt erhalten, aber mit
+  Sicherheitsprüfung des Fenstertitels
 - Statistik zeigte teils mehr "Kommentare" als tatsächlich Dateien im
   Ordner vorhanden waren (verwaiste `descript.ion`-Einträge wurden
   mitgezählt, ohne zu prüfen, ob die zugehörige Datei noch existiert)

@@ -4,12 +4,18 @@ Total Commander Lister-Plugin (WLX). Zeigt statt eines Datei-Previews den
 TC-eigenen Kommentar aus `descript.ion` (im selben Ordner wie die
 Datei/der Ordner).
 
+## Screenshots
+
+![DescriptEdit im Vollbild](https://github.com/Native2904/DescriptEdit/blob/main/Lister.png)
+![DescriptEdit im Lister-Fenster](https://github.com/Native2904/DescriptEdit/blob/main/QuickView.png)
+
 ## Bedienung
 
 | Taste      | Wirkung                                                                                      |
 | ---------- | -------------------------------------------------------------------------------------------- |
 | **Strg+S** | Speichert den Kommentar in `descript.ion`                                                    |
 | **Strg+E** | Schaltet für diese Sitzung zwischen editierbar/schreibgeschützt um (verändert nicht die INI) |
+| **ESC**    | Schließt das Lister-Fenster ohne zu speichern - siehe Sicherheitshinweis unten               |
 | Tippen     | Ganz normal - Kommentarfeld ist ein RichEdit-Control mit leicht abgerundeten Ecken           |
 
 Es gibt **kein Auto-Save** – nur Strg+S schreibt etwas. Ist für das Objekt
@@ -25,7 +31,7 @@ Farbtöne sind über die INI einstellbar (siehe unten).
 Unten im Fenster zeigt eine Statistik-Zeile, wie viele Objekte im aktuellen
 Ordner einen Kommentar haben, wie viele nicht, sowie die Dateigröße der
 `descript.ion` selbst. Wird beim Öffnen und nach jedem erfolgreichen
-Speichern neu berechnet (nicht bei jedem Tastendruck).
+Speichern neu berechnet.
 
 ## Zeitstempel
 
@@ -49,7 +55,7 @@ Ordner liegen (`DescriptEdit.wlx64` → `DescriptEdit.ini`).
 ; Verhalten
 AppendTimestamp=1
 Editmodus=1
-CloseOnSaveInF3=0
+Language=auto
 
 ; Schrift
 FontFace=Segoe UI
@@ -69,6 +75,9 @@ kein TC-Neustart nötig.
 
 - **AppendTimestamp** (`0`/`1`, Default `1`): Zeitstempel beim Speichern anhängen oder nicht
 - **Editmodus** (`0`/`1`, Default `1`): Startzustand editierbar/schreibgeschützt. Kann pro Sitzung zusätzlich mit Strg+E umgeschaltet werden, unabhängig vom INI-Wert
+- **Language** (`auto`/`de`/`en`, Default `auto`): Sprache der Statistik-Zeile unten. 
+  
+  
 
 **Schrift:**
 

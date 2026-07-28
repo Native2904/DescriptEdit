@@ -3,6 +3,10 @@
 Total Commander Lister plugin (WLX). Instead of a file preview, it shows
 TC's own comment from `descript.ion` (in the same folder as the file/folder).
 
+## Screenshots
+
+![DescriptEdit fullscreen](https://github.com/Native2904/DescriptEdit/blob/main/Lister.png)
+![DescriptEdit in the Lister window](https://github.com/Native2904/DescriptEdit/blob/main/QuickView.png)
 
 ## Usage
 
@@ -25,10 +29,9 @@ colors are configurable via the INI (see below).
 
 A status line at the bottom shows how many objects in the current folder
 have a comment, how many don't, and the file size of `descript.ion` itself.
-Recalculated on open and after each successful save (not on every
-keystroke, to avoid noticeable slowdowns in large folders).
 
-## Timestamp
+
+# Timestamp
 
 On save, `" (HH:MM:SS | dd.MM.yyyy)"` (the save time, **not** the creation
 time) is optionally appended right after the comment at half font size and
@@ -50,6 +53,7 @@ same folder (`DescriptEdit.wlx64` → `DescriptEdit.ini`).
 ; Behavior
 AppendTimestamp=1
 Editmodus=1
+Language=auto
 
 ; Font
 FontFace=Segoe UI
@@ -69,6 +73,7 @@ is opened - no need to restart TC.
 
 - **AppendTimestamp** (`0`/`1`, default `1`): whether to append the timestamp on save
 - **Editmodus** (`0`/`1`, default `1`): initial editable/read-only state. Can additionally be toggled per session with Ctrl+E, independent of the INI value
+- **Language** (`auto`/`de`/`en`, default `auto`): language of the status line at the bottom.
 
 **Font:**
 
@@ -81,10 +86,6 @@ is opened - no need to restart TC.
 - **HighlightColor** (e.g. `34,87,128`): background color of the title and counter bar. Text color (black/white) is chosen automatically based on brightness. **If this key is missing entirely**, the normal system/window color is used
 - **EditableBackgroundColor** (default `236,236,236`): background color of the comment field in edit mode
 - **ReadonlyBackgroundColor** (default `255,255,255`): background color of the comment field in read-only mode
-
-
-https://github.com/Native2904/DescriptEdit/blob/main/QuickView.png  https://github.com/Native2904/DescriptEdit/blob/main/Lister.png
-
 
 ## Setting up in Total Commander
 
