@@ -13,8 +13,7 @@ Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.0.0/).
 - INI-Schlüssel `EditableBackgroundColor`, `ReadonlyBackgroundColor` für
   den Editiermodus-Hintergrund
 - INI-Schlüssel `Language` (`auto`/`de`/`en`): Statistik-Zeile passt sich
-  automatisch der Windows-Anzeigesprache an, statt fest auf Deutsch zu
-  stehen (Rückmeldung eines englischsprachigen Nutzers)
+  automatisch der Windows-Anzeigesprache an.
 
 ### Geändert
 - Editiermodus-Anzeige: Hintergrundfarbe des Kommentarfelds statt
