@@ -5,8 +5,8 @@ TC's own comment from `descript.ion` (in the same folder as the file/folder).
 
 ## Screenshots
 
-![DescriptEdit fullscreen](https://github.com/Native2904/DescriptEdit/blob/main/Lister.png)
-![DescriptEdit in the Lister window](https://github.com/Native2904/DescriptEdit/blob/main/QuickView.png)
+![DescriptEdit fullscreen] https://github.com/Native2904/DescriptEdit/blob/main/STrg%2BQ.png
+![DescriptEdit in the Lister window] https://github.com/Native2904/DescriptEdit/blob/main/F3.png
 
 ## Usage
 
