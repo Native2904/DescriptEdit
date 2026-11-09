@@ -6,7 +6,8 @@ it right there – in Lister (F3) and in Quick View (Ctrl+Q).
 
 ## Screenshots
 
-<img width="961" height="843" alt="2026-11-09_194335" src="https://github.com/user-attachments/assets/b1b34cf4-9c85-48c7-ab35-c6d2f2764fc0" /> <img width="979" height="704" alt="2026-11-09_194413" src="https://github.com/user-attachments/assets/95ec0d29-6689-4392-a84e-0a4eacc1b555" />
+<img width="961" height="843" alt="2026-11-09_194335" src="https://github.com/user-attachments/assets/b1b34cf4-9c85-48c7-ab35-c6d2f2764fc0" />
+<img width="979" height="704" alt="2026-11-09_194413" src="https://github.com/user-attachments/assets/95ec0d29-6689-4392-a84e-0a4eacc1b555" />
 
 
 ## Usage
